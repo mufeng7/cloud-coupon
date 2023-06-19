@@ -1,0 +1,18 @@
+server:
+  port: 7003
+  servlet:
+    context-path: /coupon-settlement
+
+spring:
+  application:
+    name: eureka-client-coupon-settlement
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8000/eureka/
+
+#定义日志级别
+logging:
+  level:
+    com.sztu.coupon: debug
