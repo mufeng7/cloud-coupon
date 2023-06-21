@@ -17,7 +17,7 @@
 技术栈：SpringCloud + Redis + Caffeine + Kafka + Eureka +Hystrix
 整体的架构：
 微信图片_20230304170830.png
-![输入图片说明](/image/1_20230304170830.png)
+image/1_20230304170830.png
 
 ## 注册中心
 使用Eureka作为注册中心，Eureka Server的配置，其中application.yml 中是单机作为注册中心的配置，bootstrap.yml中是多台设备作为注册中心。
